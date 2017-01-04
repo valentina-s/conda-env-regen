@@ -19,9 +19,6 @@ def main():
     # obtaining a list of all environments
     envs = os.listdir(os.path.join(anaconda_path,'envs'))
 
-    # removing the root one
-    envs.remove('_build')
-
     for env in envs:
         yml_filename = os.path.join(environments_path,'environment_%s.yml'%env)
         subprocess.Popen('conda env export --name %s > %s'%(env,yml_filename),shell = True)
