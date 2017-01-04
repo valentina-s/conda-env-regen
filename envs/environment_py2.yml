@@ -1,0 +1,25 @@
+name: py2
+channels: !!python/tuple
+- menpo
+- conda-forge
+- defaults
+dependencies:
+- conda-forge::ca-certificates=2016.9.26=0
+- conda-forge::certifi=2016.9.26=py27_0
+- conda-forge::ncurses=5.9=10
+- conda-forge::openssl=1.0.2h=3
+- conda-forge::pip=9.0.1=py27_0
+- conda-forge::python=2.7.12=1
+- conda-forge::readline=6.2=0
+- conda-forge::setuptools=29.0.1=py27_0
+- conda-forge::sqlite=3.13.0=1
+- conda-forge::tk=8.5.19=0
+- conda-forge::wheel=0.29.0=py27_0
+- conda-forge::zlib=1.2.8=3
+- pip:
+  - deck2pdf==0.5.0.dev20161130214506
+  - ghost.py==0.2.3
+  - pillow==3.4.2
+  - reportlab==3.3.0
+prefix: /home/val/anaconda3/envs/py2
+

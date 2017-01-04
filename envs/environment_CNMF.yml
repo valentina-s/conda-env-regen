@@ -1,0 +1,135 @@
+name: CNMF
+channels: !!python/tuple
+- menpo
+- conda-forge
+- defaults
+dependencies:
+- backports=1.0=py27_0
+- backports_abc=0.4=py27_0
+- cairo=1.12.18=6
+- conda-forge::alabaster=0.7.9=py27_0
+- conda-forge::babel=2.3.4=py27_0
+- conda-forge::configparser=3.5.0=py27_0
+- conda-forge::docutils=0.12=py27_0
+- conda-forge::entrypoints=0.2.2=py27_0
+- conda-forge::enum34=1.1.6=py27_1
+- conda-forge::funcsigs=1.0.2=py27_0
+- conda-forge::functools32=3.2.3.2=py27_1
+- conda-forge::h5py=2.6.0=np110py27_6
+- conda-forge::hdf5=1.8.17=6
+- conda-forge::imagesize=0.7.1=py27_0
+- conda-forge::jinja2=2.8=py27_1
+- conda-forge::jsonschema=2.5.1=py27_0
+- conda-forge::jupyter_console=5.0.0=py27_0
+- conda-forge::markupsafe=0.23=py27_0
+- conda-forge::mistune=0.7.3=py27_0
+- conda-forge::nbconvert=4.2.0=py27_0
+- conda-forge::nbformat=4.1.0=py27_0
+- conda-forge::notebook=4.2.3=py27_0
+- conda-forge::pep8=1.7.0=py27_0
+- conda-forge::prompt_toolkit=1.0.7=py27_0
+- conda-forge::pyflakes=1.2.3=py27_0
+- conda-forge::pygments=2.1.3=py27_1
+- conda-forge::qtconsole=4.2.1=py27_0
+- conda-forge::requests=2.11.1=py27_0
+- conda-forge::snowballstemmer=1.2.1=py27_0
+- conda-forge::sphinx=1.4.8=py27_0
+- conda-forge::spyder=2.3.9=py27_1
+- conda-forge::terminado=0.6=py27_0
+- conda-forge::tqdm=4.8.4=py27_0
+- conda-forge::wcwidth=0.1.7=py27_0
+- cvxcanon=0.0.23.3=py27_0
+- cvxopt=1.1.8=py27_1
+- cycler=0.10.0=py27_0
+- decorator=4.0.9=py27_0
+- ecos=2.0.4=py27_0
+- fontconfig=2.11.1=5
+- freetype=2.5.5=0
+- futures=3.0.5=py27_0
+- ipykernel=4.3.1=py27_0
+- ipyparallel=5.0.1=py27_0
+- ipython=4.1.2=py27_1
+- ipython_genutils=0.1.0=py27_0
+- jbig=2.1=0
+- jedi=0.9.0=py27_1
+- jpeg=8d=0
+- jupyter=1.0.0=py27_3
+- jupyter_client=4.2.2=py27_0
+- jupyter_core=4.1.0=py27_0
+- libgfortran=3.0=0
+- libpng=1.6.17=0
+- libsodium=1.0.3=0
+- libtiff=4.0.6=1
+- libxml2=2.9.2=0
+- llvmlite=0.11.0=py27_0
+- matplotlib=1.5.1=np110py27_0
+- menpo::ipywidgets=5.1.5=py27_0
+- menpo::opencv3=3.1.0=py27_0
+- menpo::widgetsnbextension=1.2.3=py27_1
+- mkl=11.3.1=0
+- networkx=1.11=py27_0
+- nose=1.3.7=py27_0
+- numba=0.26.0=np110py27_0
+- numpy=1.10.4=py27_1
+- omnia::cvxpy=0.3.1=py27_0
+- omnia::scs=1.1.7=np110py27_1
+- openblas=0.2.14=4
+- openssl=1.0.2g=0
+- path.py=8.2=py27_0
+- pexpect=4.0.1=py27_0
+- pickleshare=0.5=py27_0
+- pillow=3.2.0=py27_0
+- pip=8.1.1=py27_1
+- pixman=0.32.6=0
+- psutil=4.1.0=py27_0
+- ptyprocess=0.5=py27_0
+- pycairo=1.10.0=py27_0
+- pyparsing=2.0.3=py27_0
+- pyqt=4.11.4=py27_1
+- python=2.7.11=0
+- python-dateutil=2.5.2=py27_0
+- pytz=2016.3=py27_0
+- pyzmq=15.2.0=py27_0
+- qt=4.8.7=1
+- readline=6.2=2
+- rope=0.9.4=py27_1
+- scikit-image=0.12.3=np110py27_0
+- scipy=0.17.0=np110py27_2
+- setuptools=20.6.7=py27_0
+- simplegeneric=0.8.1=py27_0
+- singledispatch=3.4.0.3=py27_0
+- sip=4.16.9=py27_0
+- six=1.10.0=py27_0
+- sqlite=3.9.2=0
+- ssl_match_hostname=3.4.0.2=py27_1
+- tk=8.5.18=0
+- toolz=0.7.4=py27_0
+- tornado=4.3=py27_0
+- traitlets=4.2.1=py27_0
+- wheel=0.29.0=py27_0
+- xz=5.0.5=1
+- zeromq=4.1.3=0
+- zlib=1.2.8=0
+- pip:
+  - backports-abc==0.4
+  - backports.shutil-get-terminal-size==1.0.0
+  - backports.ssl-match-hostname==3.4.0.2
+  - certifi==2016.9.26
+  - constrained-nmf==0.1
+  - dask==0.8.2
+  - ipython-genutils==0.1.0
+  - joblib==0.9.4
+  - jupyter-client==4.4.0
+  - jupyter-console==5.0.0
+  - jupyter-core==4.2.0
+  - mahotas==1.4.3
+  - pathlib2==2.1.0
+  - peakutils==1.0.3
+  - picos==1.1.1
+  - prompt-toolkit==1.0.7
+  - scikit-learn==0.17.1
+  - tifffile==0.8.0
+  - timeseries==0.5.0
+  - virtualenv==15.0.3
+prefix: /home/val/anaconda3/envs/CNMF
+
