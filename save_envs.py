@@ -23,6 +23,10 @@ def main():
         yml_filename = os.path.join(environments_path,'environment_%s.yml'%env)
         subprocess.Popen('conda env export --name %s > %s'%(env,yml_filename),shell = True)
 
+    # exporting the root env
+    yml_root = os.path.join(environments_path, 'environment_root.yml')
+    subprocess.Popen('conda env export --name root > %s'%yml_root, shell = True)
+
 if __name__ == "__main__":
     import os
     import sys
